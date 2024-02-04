@@ -1,0 +1,11 @@
+.champion-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-self: center;
+  max-width: 70px;
+}
+
+.champion-name {
+  color: #ffd277;
+}
