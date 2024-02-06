@@ -4,7 +4,7 @@ import { ChampionModel } from "../../../pages/champ/ChampSelect";
 
 interface RollButtonProps {
   datas: Array<ChampionModel>;
-  setRandomChamp: (name: ChampionModel) => void;
+  setRandomChamp: (champ: ChampionModel) => void;
 }
 
 function RollButton({ datas, setRandomChamp }: RollButtonProps) {

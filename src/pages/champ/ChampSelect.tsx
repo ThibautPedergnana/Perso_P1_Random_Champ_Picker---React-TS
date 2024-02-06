@@ -6,29 +6,54 @@ import "../Pages.css";
 
 import { useParams } from "react-router-dom";
 import RollButton from "../../components/buttons/main-button/RollButton";
+import Filter from "../../components/filters/Filter";
 
 export interface ChampionModel {
+  id?: string;
   key: string;
   name: string;
+  title?: string;
   image: string;
+  tags?: string[];
+  damage?: string[];
 }
+
+type ChampListModel = ChampionModel[];
 
 function ChampSelect() {
   let { id } = useParams();
-  const [randomChamp, setRandomChamp] = useState<ChampionModel>();
-
   const championByRole: Array<ChampionModel> = championJson.filter(
     (champion) => {
       return champion ? champion.tags.includes(id ?? "") : null;
     }
   );
-
+  const [randomChamp, setRandomChamp] = useState<ChampionModel>();
+  const [champList, setChampList] = useState<ChampListModel>(championByRole);
   return (
     <App>
+      <div>
+        <nav>
+          <Filter
+            damageType="ap"
+            datas={champList}
+            setChampList={(championList: ChampListModel) =>
+              setChampList(championList)
+            }
+          />
+
+          <Filter
+            damageType="ad"
+            datas={champList}
+            setChampList={(championList: ChampListModel) =>
+              setChampList(championList)
+            }
+          />
+        </nav>
+      </div>
       <div className="champions-content">
         {!randomChamp ? (
           <div className="champions-list">
-            {championByRole.map(({ name, key, image }) => (
+            {champList.map(({ name, key, image }) => (
               <Champion key={"champion" + key} name={name} image={image} />
             ))}
           </div>
@@ -41,7 +66,7 @@ function ChampSelect() {
         )}
         <div className="main-button-container">
           <RollButton
-            datas={championByRole}
+            datas={champList}
             setRandomChamp={(champ: ChampionModel) => setRandomChamp(champ)}
           />
         </div>

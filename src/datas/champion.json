@@ -6,7 +6,7 @@
     "title": "the Darkin Blade",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Aatrox.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Ahri",
@@ -15,7 +15,7 @@
     "title": "the Nine-Tailed Fox",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Ahri.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Akali",
@@ -24,7 +24,7 @@
     "title": "the Rogue Assassin",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Akali.png",
     "tags": ["top", "middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Akshan",
@@ -33,7 +33,7 @@
     "title": "the Rogue Sentinel",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Akshan.png",
     "tags": ["top", "middle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Alistar",
@@ -42,7 +42,7 @@
     "title": "the Minotaur",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Alistar.png",
     "tags": ["support"],
-    "type": [""]
+    "damage": ["AP"]
   },
   {
     "id": "Amumu",
@@ -51,7 +51,7 @@
     "title": "the Sad Mummy",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Amumu.png",
     "tags": ["jungle", "support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Anivia",
@@ -60,7 +60,7 @@
     "title": "the Cryophoenix",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Anivia.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Annie",
@@ -69,7 +69,7 @@
     "title": "the Dark Child",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Annie.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Aphelios",
@@ -78,7 +78,7 @@
     "title": "the Weapon of the Faithful",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Aphelios.png",
     "tags": ["bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Ashe",
@@ -87,7 +87,7 @@
     "title": "the Frost Archer",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Ashe.png",
     "tags": ["bottom", "support"],
-    "type": ["AD", "AP"]
+    "damage": ["AD", "AP"]
   },
   {
     "id": "AurelionSol",
@@ -96,7 +96,7 @@
     "title": "The Star Forger",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/AurelionSol.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Azir",
@@ -105,7 +105,7 @@
     "title": "the Emperor of the Sands",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Azir.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Bard",
@@ -114,7 +114,7 @@
     "title": "the Wandering Caretaker",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Bard.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Belveth",
@@ -123,7 +123,7 @@
     "title": "the Empress of the Void",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Belveth.png",
     "tags": ["jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Blitzcrank",
@@ -132,7 +132,7 @@
     "title": "the Great Steam Golem",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Blitzcrank.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Brand",
@@ -141,7 +141,7 @@
     "title": "the Burning Vengeance",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Brand.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Braum",
@@ -150,7 +150,7 @@
     "title": "the Heart of the Freljord",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Braum.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Briar",
@@ -159,7 +159,7 @@
     "title": "the Restrained Hunger",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Briar.png",
     "tags": ["jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Caitlyn",
@@ -168,7 +168,7 @@
     "title": "the Sheriff of Piltover",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Caitlyn.png",
     "tags": ["bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Camille",
@@ -177,7 +177,7 @@
     "title": "the Steel Shadow",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Camille.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Cassiopeia",
@@ -186,7 +186,7 @@
     "title": "the Serpent's Embrace",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Cassiopeia.png",
     "tags": ["top", "middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Chogath",
@@ -195,7 +195,7 @@
     "title": "the Terror of the Void",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Chogath.png",
     "tags": ["top", "middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Corki",
@@ -204,7 +204,7 @@
     "title": "the Daring Bombardier",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Corki.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Darius",
@@ -213,7 +213,7 @@
     "title": "the Hand of Noxus",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Darius.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Diana",
@@ -222,7 +222,7 @@
     "title": "Scorn of the Moon",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Diana.png",
     "tags": ["jungle", "middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Draven",
@@ -231,7 +231,7 @@
     "title": "the Glorious Executioner",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Draven.png",
     "tags": ["bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "DrMundo",
@@ -240,7 +240,7 @@
     "title": "the Madman of Zaun",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/DrMundo.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Ekko",
@@ -249,7 +249,7 @@
     "title": "the Boy Who Shattered Time",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Ekko.png",
     "tags": ["jungle", "middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Elise",
@@ -258,7 +258,7 @@
     "title": "the Spider Queen",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Elise.png",
     "tags": ["jungle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Evelynn",
@@ -267,7 +267,7 @@
     "title": "Agony's Embrace",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Evelynn.png",
     "tags": ["jungle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Ezreal",
@@ -276,7 +276,7 @@
     "title": "the Prodigal Explorer",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Ezreal.png",
     "tags": ["bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Fiddlesticks",
@@ -285,7 +285,7 @@
     "title": "the Ancient Fear",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Fiddlesticks.png",
     "tags": ["jungle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Fiora",
@@ -294,7 +294,7 @@
     "title": "the Grand Duelist",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Fiora.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Fizz",
@@ -303,7 +303,7 @@
     "title": "the Tidal Trickster",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Fizz.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Galio",
@@ -312,7 +312,7 @@
     "title": "the Colossus",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Galio.png",
     "tags": ["middle", "support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Gangplank",
@@ -321,7 +321,7 @@
     "title": "the Saltwater Scourge",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Gangplank.png",
     "tags": ["top", "middle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Garen",
@@ -330,7 +330,7 @@
     "title": "The Might of Demacia",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Garen.png",
     "tags": ["top", "middle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Gnar",
@@ -339,7 +339,7 @@
     "title": "the Missing Link",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Gnar.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Gragas",
@@ -348,7 +348,7 @@
     "title": "the Rabble Rouser",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Gragas.png",
     "tags": ["top", "jungle", "middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Graves",
@@ -357,7 +357,7 @@
     "title": "the Outlaw",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Graves.png",
     "tags": ["jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Gwen",
@@ -366,7 +366,7 @@
     "title": "The Hallowed Seamstress",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Gwen.png",
     "tags": ["top"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Hecarim",
@@ -375,7 +375,7 @@
     "title": "the Shadow of War",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Hecarim.png",
     "tags": ["jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Heimerdinger",
@@ -384,7 +384,7 @@
     "title": "the Revered Inventor",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Heimerdinger.png",
     "tags": ["top", "middle", "support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Illaoi",
@@ -393,7 +393,7 @@
     "title": "the Kraken Priestess",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Illaoi.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Irelia",
@@ -402,7 +402,7 @@
     "title": "the Blade Dancer",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Irelia.png",
     "tags": ["top", "middle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Ivern",
@@ -411,7 +411,7 @@
     "title": "the Green Father",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Ivern.png",
     "tags": ["jungle", "support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Janna",
@@ -420,7 +420,7 @@
     "title": "the Storm's Fury",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Janna.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "JarvanIV",
@@ -429,7 +429,7 @@
     "title": "the Exemplar of Demacia",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/JarvanIV.png",
     "tags": ["jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Jax",
@@ -438,7 +438,7 @@
     "title": "Grandmaster at Arms",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Jax.png",
     "tags": ["top", "jungle"],
-    "type": ["AD", "AP"]
+    "damage": ["AD", "AP"]
   },
   {
     "id": "Jayce",
@@ -447,7 +447,7 @@
     "title": "the Defender of Tomorrow",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Jayce.png",
     "tags": ["top", "middle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Jhin",
@@ -456,7 +456,7 @@
     "title": "the Virtuoso",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Jhin.png",
     "tags": ["bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Jinx",
@@ -465,7 +465,7 @@
     "title": "the Loose Cannon",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Jinx.png",
     "tags": ["bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Kaisa",
@@ -474,7 +474,7 @@
     "title": "Daughter of the Void",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Kaisa.png",
     "tags": ["middle", "bottom"],
-    "type": ["AD", "AP"]
+    "damage": ["AD", "AP"]
   },
   {
     "id": "Kalista",
@@ -483,7 +483,7 @@
     "title": "the Spear of Vengeance",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Kalista.png",
     "tags": ["bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Karma",
@@ -492,7 +492,7 @@
     "title": "the Enlightened One",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Karma.png",
     "tags": ["middle", "support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Karthus",
@@ -501,7 +501,7 @@
     "title": "the Deathsinger",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Karthus.png",
     "tags": ["jungle", "bottom"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Kassadin",
@@ -510,7 +510,7 @@
     "title": "the Void Walker",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Kassadin.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Katarina",
@@ -519,7 +519,7 @@
     "title": "the Sinister Blade",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Katarina.png",
     "tags": ["middle"],
-    "type": ["AD", "AP"]
+    "damage": ["AD", "AP"]
   },
   {
     "id": "Kayle",
@@ -528,7 +528,7 @@
     "title": "the Righteous",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Kayle.png",
     "tags": ["top", "middle"],
-    "type": ["AD", "AP"]
+    "damage": ["AD", "AP"]
   },
   {
     "id": "Kayn",
@@ -537,7 +537,7 @@
     "title": "the Shadow Reaper",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Kayn.png",
     "tags": ["top", "jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Kennen",
@@ -546,7 +546,7 @@
     "title": "the Heart of the Tempest",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Kennen.png",
     "tags": ["top", "middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Khazix",
@@ -555,7 +555,7 @@
     "title": "the Voidreaver",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Khazix.png",
     "tags": ["jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Kindred",
@@ -564,7 +564,7 @@
     "title": "The Eternal Hunters",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Kindred.png",
     "tags": ["jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Kled",
@@ -573,7 +573,7 @@
     "title": "the Cantankerous Cavalier",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Kled.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "KogMaw",
@@ -582,7 +582,7 @@
     "title": "the Mouth of the Abyss",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/KogMaw.png",
     "tags": ["middle", "bottom"],
-    "type": ["AD", "AP"]
+    "damage": ["AD", "AP"]
   },
   {
     "id": "KSante",
@@ -591,7 +591,7 @@
     "title": "the Pride of Nazumah",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/KSante.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Leblanc",
@@ -600,7 +600,7 @@
     "title": "the Deceiver",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Leblanc.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "LeeSin",
@@ -609,7 +609,7 @@
     "title": "the Blind Monk",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/LeeSin.png",
     "tags": ["jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Leona",
@@ -618,7 +618,7 @@
     "title": "the Radiant Dawn",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Leona.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Lillia",
@@ -627,7 +627,7 @@
     "title": "the Bashful Bloom",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Lillia.png",
     "tags": ["jungle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Lissandra",
@@ -636,7 +636,7 @@
     "title": "the Ice Witch",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Lissandra.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Lucian",
@@ -645,7 +645,7 @@
     "title": "the Purifier",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Lucian.png",
     "tags": ["middle", "bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Lulu",
@@ -654,7 +654,7 @@
     "title": "the Fae Sorceress",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Lulu.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Lux",
@@ -663,7 +663,7 @@
     "title": "the Lady of Luminosity",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Lux.png",
     "tags": ["middle", "support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Malphite",
@@ -672,7 +672,7 @@
     "title": "Shard of the Monolith",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Malphite.png",
     "tags": ["top", "middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Malzahar",
@@ -681,7 +681,7 @@
     "title": "the Prophet of the Void",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Malzahar.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Maokai",
@@ -690,7 +690,7 @@
     "title": "the Twisted Treant",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Maokai.png",
     "tags": ["top", "jungle", "support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "MasterYi",
@@ -699,7 +699,7 @@
     "title": "the Wuju Bladesman",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/MasterYi.png",
     "tags": ["jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Milio",
@@ -708,7 +708,7 @@
     "title": "The Gentle Flame",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Milio.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "MissFortune",
@@ -717,7 +717,7 @@
     "title": "the Bounty Hunter",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/MissFortune.png",
     "tags": ["bottom"],
-    "type": ["AD", "AP"]
+    "damage": ["AD", "AP"]
   },
   {
     "id": "Wukong",
@@ -726,7 +726,7 @@
     "title": "the Monkey King",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/MonkeyKing.png",
     "tags": ["top", "jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Mordekaiser",
@@ -735,7 +735,7 @@
     "title": "the Iron Revenant",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Mordekaiser.png",
     "tags": ["top", "jungle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Morgana",
@@ -744,7 +744,7 @@
     "title": "the Fallen",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Morgana.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Naafiri",
@@ -753,7 +753,7 @@
     "title": "the Hound of a Hundred Bites",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Naafiri.png",
     "tags": ["jungle", "middle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Nami",
@@ -762,7 +762,7 @@
     "title": "the Tidecaller",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Nami.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Nasus",
@@ -771,7 +771,7 @@
     "title": "the Curator of the Sands",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Nasus.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Nautilus",
@@ -780,7 +780,7 @@
     "title": "the Titan of the Depths",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Nautilus.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Neeko",
@@ -789,7 +789,7 @@
     "title": "the Curious Chameleon",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Neeko.png",
     "tags": ["middle", "support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Nidalee",
@@ -798,7 +798,7 @@
     "title": "the Bestial Huntress",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Nidalee.png",
     "tags": ["jungle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Nilah",
@@ -807,7 +807,7 @@
     "title": "the Joy Unbound",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Nilah.png",
     "tags": ["bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Nocturne",
@@ -816,7 +816,7 @@
     "title": "the Eternal Nightmare",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Nocturne.png",
     "tags": ["jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Nunu",
@@ -825,7 +825,7 @@
     "title": "the Boy and His Yeti",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Nunu.png",
     "tags": ["jungle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Olaf",
@@ -834,7 +834,7 @@
     "title": "the Berserker",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Olaf.png",
     "tags": ["top", "jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Orianna",
@@ -843,7 +843,7 @@
     "title": "the Lady of Clockwork",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Orianna.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Ornn",
@@ -852,7 +852,7 @@
     "title": "The Fire below the Mountain",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Ornn.png",
     "tags": ["top"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Pantheon",
@@ -861,7 +861,7 @@
     "title": "the Unbreakable Spear",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Pantheon.png",
     "tags": ["top", "middle", "support"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Poppy",
@@ -870,7 +870,7 @@
     "title": "Keeper of the Hammer",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Poppy.png",
     "tags": ["top", "jungle", "support"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Pyke",
@@ -879,7 +879,7 @@
     "title": "the Bloodharbor Ripper",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Pyke.png",
     "tags": ["support"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Qiyana",
@@ -888,7 +888,7 @@
     "title": "Empress of the Elements",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Qiyana.png",
     "tags": ["jungle", "middle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Quinn",
@@ -897,7 +897,7 @@
     "title": "Demacia's Wings",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Quinn.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Rakan",
@@ -906,7 +906,7 @@
     "title": "The Charmer",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Rakan.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Rammus",
@@ -915,7 +915,7 @@
     "title": "the Armordillo",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Rammus.png",
     "tags": ["jungle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "RekSai",
@@ -924,7 +924,7 @@
     "title": "the Void Burrower",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/RekSai.png",
     "tags": ["jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Rell",
@@ -933,7 +933,7 @@
     "title": "the Iron Maiden",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Rell.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Renata",
@@ -942,7 +942,7 @@
     "title": "the Chem-Baroness",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Renata.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Renekton",
@@ -951,7 +951,7 @@
     "title": "the Butcher of the Sands",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Renekton.png",
     "tags": ["top", "middle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Rengar",
@@ -960,7 +960,7 @@
     "title": "the Pridestalker",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Rengar.png",
     "tags": ["top", "jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Riven",
@@ -969,7 +969,7 @@
     "title": "the Exile",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Riven.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Rumble",
@@ -978,7 +978,7 @@
     "title": "the Mechanized Menace",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Rumble.png",
     "tags": ["top", "middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Ryze",
@@ -987,7 +987,7 @@
     "title": "the Rune Mage",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Ryze.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Samira",
@@ -996,7 +996,7 @@
     "title": "the Desert Rose",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Samira.png",
     "tags": ["bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Sejuani",
@@ -1005,7 +1005,7 @@
     "title": "Fury of the North",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Sejuani.png",
     "tags": ["top", "jungle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Senna",
@@ -1014,7 +1014,7 @@
     "title": "the Redeemer",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Senna.png",
     "tags": ["bottom", "support"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Seraphine",
@@ -1023,7 +1023,7 @@
     "title": "the Starry-Eyed Songstress",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Seraphine.png",
     "tags": ["middle", "bottom", "support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Sett",
@@ -1032,7 +1032,7 @@
     "title": "the Boss",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Sett.png",
     "tags": ["top", "support"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Shaco",
@@ -1041,7 +1041,7 @@
     "title": "the Demon Jester",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Shaco.png",
     "tags": ["jungle"],
-    "type": ["AD", "AP"]
+    "damage": ["AD", "AP"]
   },
   {
     "id": "Shen",
@@ -1050,7 +1050,7 @@
     "title": "the Eye of Twilight",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Shen.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Shyvana",
@@ -1059,7 +1059,7 @@
     "title": "the Half-Dragon",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Shyvana.png",
     "tags": ["jungle"],
-    "type": ["AD", "AP"]
+    "damage": ["AD", "AP"]
   },
   {
     "id": "Singed",
@@ -1068,7 +1068,7 @@
     "title": "the Mad Chemist",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Singed.png",
     "tags": ["top"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Sion",
@@ -1077,7 +1077,7 @@
     "title": "The Undead Juggernaut",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Sion.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Sivir",
@@ -1086,7 +1086,7 @@
     "title": "the Battle Mistress",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Sivir.png",
     "tags": ["bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Skarner",
@@ -1095,7 +1095,7 @@
     "title": "the Crystal Vanguard",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Skarner.png",
     "tags": ["jungle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Sona",
@@ -1104,7 +1104,7 @@
     "title": "Maven of the Strings",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Sona.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Soraka",
@@ -1113,7 +1113,7 @@
     "title": "the Starchild",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Soraka.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Swain",
@@ -1122,7 +1122,7 @@
     "title": "the Noxian Grand General",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Swain.png",
     "tags": ["middle", "support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Sylas",
@@ -1131,7 +1131,7 @@
     "title": "the Unshackled",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Sylas.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Syndra",
@@ -1140,7 +1140,7 @@
     "title": "the Dark Sovereign",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Syndra.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "TahmKench",
@@ -1149,7 +1149,7 @@
     "title": "The River King",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/TahmKench.png",
     "tags": ["top", "support"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Taliyah",
@@ -1158,7 +1158,7 @@
     "title": "the Stoneweaver",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Taliyah.png",
     "tags": ["jungle", "middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Talon",
@@ -1167,7 +1167,7 @@
     "title": "the Blade's Shadow",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Talon.png",
     "tags": ["jungle", "middle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Taric",
@@ -1176,7 +1176,7 @@
     "title": "the Shield of Valoran",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Taric.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Teemo",
@@ -1185,7 +1185,7 @@
     "title": "the Swift Scout",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Teemo.png",
     "tags": ["top"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Thresh",
@@ -1194,7 +1194,7 @@
     "title": "the Chain Warden",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Thresh.png",
     "tags": ["support"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Tristana",
@@ -1203,7 +1203,7 @@
     "title": "the Yordle Gunner",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Tristana.png",
     "tags": ["middle", "bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Trundle",
@@ -1212,7 +1212,7 @@
     "title": "the Troll King",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Trundle.png",
     "tags": ["top", "jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Tryndamere",
@@ -1221,7 +1221,7 @@
     "title": "the Barbarian King",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Tryndamere.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "TwistedFate",
@@ -1230,7 +1230,7 @@
     "title": "the Card Master",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/TwistedFate.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Twitch",
@@ -1239,7 +1239,7 @@
     "title": "the Plague Rat",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Twitch.png",
     "tags": ["bottom"],
-    "type": ["AD", "AP"]
+    "damage": ["AD", "AP"]
   },
   {
     "id": "Udyr",
@@ -1248,7 +1248,7 @@
     "title": "the Spirit Walker",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Udyr.png",
     "tags": ["jungle"],
-    "type": ["AD", "AP"]
+    "damage": ["AD", "AP"]
   },
   {
     "id": "Urgot",
@@ -1257,7 +1257,7 @@
     "title": "the Dreadnought",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Urgot.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Varus",
@@ -1266,7 +1266,7 @@
     "title": "the Arrow of Retribution",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Varus.png",
     "tags": ["middle", "bottom"],
-    "type": ["AD", "AP"]
+    "damage": ["AD", "AP"]
   },
   {
     "id": "Vayne",
@@ -1275,7 +1275,7 @@
     "title": "the Night Hunter",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Vayne.png",
     "tags": ["bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Veigar",
@@ -1284,7 +1284,7 @@
     "title": "the Tiny Master of Evil",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Veigar.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Velkoz",
@@ -1293,7 +1293,7 @@
     "title": "the Eye of the Void",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Velkoz.png",
     "tags": ["middle", "support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Vex",
@@ -1302,7 +1302,7 @@
     "title": "the Gloomist",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Vex.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Vi",
@@ -1311,7 +1311,7 @@
     "title": "the Piltover Enforcer",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Vi.png",
     "tags": ["jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Viego",
@@ -1320,7 +1320,7 @@
     "title": "The Ruined King",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Viego.png",
     "tags": ["jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Viktor",
@@ -1329,7 +1329,7 @@
     "title": "the Machine Herald",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Viktor.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Vladimir",
@@ -1338,7 +1338,7 @@
     "title": "the Crimson Reaper",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Vladimir.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Volibear",
@@ -1347,7 +1347,7 @@
     "title": "the Relentless Storm",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Volibear.png",
     "tags": ["top", "jungle"],
-    "type": ["AD", "AP"]
+    "damage": ["AD", "AP"]
   },
   {
     "id": "Warwick",
@@ -1356,7 +1356,7 @@
     "title": "the Uncaged Wrath of Zaun",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Warwick.png",
     "tags": ["top", "jungle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Xayah",
@@ -1365,7 +1365,7 @@
     "title": "the Rebel",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Xayah.png",
     "tags": ["bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Xerath",
@@ -1374,7 +1374,7 @@
     "title": "the Magus Ascendant",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Xerath.png",
     "tags": ["middle", "support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "XinZhao",
@@ -1383,7 +1383,7 @@
     "title": "the Seneschal of Demacia",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/XinZhao.png",
     "tags": ["jungle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Yasuo",
@@ -1392,7 +1392,7 @@
     "title": "the Unforgiven",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Yasuo.png",
     "tags": ["top", "middle", "bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Yone",
@@ -1401,7 +1401,7 @@
     "title": "the Unforgotten",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Yone.png",
     "tags": ["top", "middle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Yorick",
@@ -1410,7 +1410,7 @@
     "title": "Shepherd of Souls",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Yorick.png",
     "tags": ["top"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Yuumi",
@@ -1419,7 +1419,7 @@
     "title": "the Magical Cat",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Yuumi.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Zac",
@@ -1428,7 +1428,7 @@
     "title": "the Secret Weapon",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Zac.png",
     "tags": ["jungle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Zed",
@@ -1437,7 +1437,7 @@
     "title": "the Master of Shadows",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Zed.png",
     "tags": ["jungle", "middle"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Zeri",
@@ -1446,7 +1446,7 @@
     "title": "The Spark of Zaun",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Zeri.png",
     "tags": ["bottom"],
-    "type": ["AD"]
+    "damage": ["AD"]
   },
   {
     "id": "Ziggs",
@@ -1456,7 +1456,7 @@
 
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Ziggs.png",
     "tags": ["middle", "bottom"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Zilean",
@@ -1465,7 +1465,7 @@
     "title": "the Chronokeeper",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Zilean.png",
     "tags": ["middle", "support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Zoe",
@@ -1474,7 +1474,7 @@
     "title": "the Aspect of Twilight",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Zoe.png",
     "tags": ["middle"],
-    "type": ["AP"]
+    "damage": ["AP"]
   },
   {
     "id": "Zyra",
@@ -1483,6 +1483,6 @@
     "title": "Rise of the Thorns",
     "image": "https://ddragon.leagueoflegends.com/cdn/13.19.1/img/champion/Zyra.png",
     "tags": ["support"],
-    "type": ["AP"]
+    "damage": ["AP"]
   }
 ]

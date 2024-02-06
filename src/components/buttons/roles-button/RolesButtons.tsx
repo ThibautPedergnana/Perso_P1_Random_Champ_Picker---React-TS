@@ -1,9 +1,9 @@
 import React from "react";
-import TopIcon from "../../../assets/roles/icons/TopIcon.png";
-import JungleIcon from "../../../assets/roles/icons/JungleIcon.png";
-import MiddleIcon from "../../../assets/roles/icons/MiddleIcon.png";
-import BottomIcon from "../../../assets/roles/icons/BottomIcon.png";
-import SupportIcon from "../../../assets/roles/icons/SupportIcon.png";
+import TopIcon from "../../../assets/icons/roles/TopIcon.png";
+import JungleIcon from "../../../assets/icons/roles/JungleIcon.png";
+import MiddleIcon from "../../../assets/icons/roles/MiddleIcon.png";
+import BottomIcon from "../../../assets/icons/roles/BottomIcon.png";
+import SupportIcon from "../../../assets/icons/roles/SupportIcon.png";
 import { useNavigate } from "react-router-dom";
 import "./RolesButtons.css";
 

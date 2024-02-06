@@ -10,13 +10,7 @@ interface ChampionProps {
 function Champion({ name, image, title }: ChampionProps) {
   return (
     <div className="champion-card">
-      <img
-        rel="preload"
-        loading="lazy"
-        src={image}
-        alt={title}
-        className="champion-img"
-      />
+      <img src={image} alt={title} className="champion-img" />
       <span className="champion-name">{name}</span>
     </div>
   );
