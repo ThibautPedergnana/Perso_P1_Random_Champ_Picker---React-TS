@@ -7,14 +7,21 @@ import "../Pages.css";
 import { useParams } from "react-router-dom";
 import RollButton from "../../components/buttons/main-button/RollButton";
 
+export interface ChampionModel {
+  key: string;
+  name: string;
+  image: string;
+}
+
 function ChampSelect() {
   let { id } = useParams();
-  const [randomChamp, setRandomChamp] = useState();
-  console.log(randomChamp);
+  const [randomChamp, setRandomChamp] = useState<ChampionModel>();
 
-  const championByRole = championJson.filter((champion) => {
-    return champion ? champion.tags.includes(id) : null;
-  });
+  const championByRole: Array<ChampionModel> = championJson.filter(
+    (champion) => {
+      return champion ? champion.tags.includes(id ?? "") : null;
+    }
+  );
 
   return (
     <App>
@@ -35,7 +42,7 @@ function ChampSelect() {
         <div className="main-button-container">
           <RollButton
             datas={championByRole}
-            setRandomChamp={(name) => setRandomChamp(name)}
+            setRandomChamp={(champ: ChampionModel) => setRandomChamp(champ)}
           />
         </div>
       </div>

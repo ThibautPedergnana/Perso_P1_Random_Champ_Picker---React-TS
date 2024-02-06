@@ -6,10 +6,11 @@ import "./Header.css";
 function Header() {
   const navigate = useNavigate();
 
-  const handleClick = (e) => {
+  const handleClick = (e: React.MouseEvent<HTMLImageElement>) => {
     e.preventDefault();
     navigate("/");
   };
+
   return (
     <header className="header">
       <img

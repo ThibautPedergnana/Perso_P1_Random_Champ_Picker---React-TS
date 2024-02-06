@@ -7,10 +7,14 @@ import SupportIcon from "../../../assets/roles/icons/SupportIcon.png";
 import { useNavigate } from "react-router-dom";
 import "./RolesButtons.css";
 
-function RoleButton({ labelItem }) {
+interface LabelItemProps {
+  labelItem: string;
+}
+
+function RoleButton({ labelItem }: LabelItemProps) {
   const navigate = useNavigate();
 
-  const handleClick = (e) => {
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     switch (labelItem) {
       case "top":
@@ -31,49 +35,16 @@ function RoleButton({ labelItem }) {
   const getRoleItem = () => {
     switch (labelItem) {
       case "top":
-        return (
-          <img
-            src={TopIcon}
-            alt="Top Icon"
-            value={labelItem}
-            className="img-roles"
-          />
-        );
+        return <img src={TopIcon} alt="Top Icon" className="img-roles" />;
       case "jungle":
-        return (
-          <img
-            src={JungleIcon}
-            alt="Jungle Icon"
-            value={labelItem}
-            className="img-roles"
-          />
-        );
+        return <img src={JungleIcon} alt="Jungle Icon" className="img-roles" />;
       case "middle":
-        return (
-          <img
-            src={MiddleIcon}
-            alt="Middle Icon"
-            value={labelItem}
-            className="img-roles"
-          />
-        );
+        return <img src={MiddleIcon} alt="Middle Icon" className="img-roles" />;
       case "bottom":
-        return (
-          <img
-            src={BottomIcon}
-            alt="Bottom Icon"
-            value={labelItem}
-            className="img-roles"
-          />
-        );
+        return <img src={BottomIcon} alt="Bottom Icon" className="img-roles" />;
       case "support":
         return (
-          <img
-            src={SupportIcon}
-            alt="Support Icon"
-            value={labelItem}
-            className="img-roles"
-          />
+          <img src={SupportIcon} alt="Support Icon" className="img-roles" />
         );
 
       default:

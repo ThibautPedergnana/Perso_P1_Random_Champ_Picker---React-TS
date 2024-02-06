@@ -1,10 +1,22 @@
 import React from "react";
 import "./Champion.css";
 
-function Champion({ name, image, title }) {
+interface ChampionProps {
+  name: string;
+  image: string;
+  title?: string;
+}
+
+function Champion({ name, image, title }: ChampionProps) {
   return (
     <div className="champion-card">
-      <img src={image} alt={title} className="champion-img" />
+      <img
+        rel="preload"
+        loading="lazy"
+        src={image}
+        alt={title}
+        className="champion-img"
+      />
       <span className="champion-name">{name}</span>
     </div>
   );
