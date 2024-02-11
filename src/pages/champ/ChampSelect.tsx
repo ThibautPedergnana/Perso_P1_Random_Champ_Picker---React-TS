@@ -7,16 +7,7 @@ import "../Pages.css";
 import { useParams } from "react-router-dom";
 import RollButton from "../../components/buttons/main-button/RollButton";
 import Filter from "../../components/filters/Filter";
-
-export interface ChampionModel {
-  id?: string;
-  key: string;
-  name: string;
-  title?: string;
-  image: string;
-  tags?: string[];
-  damage?: string[];
-}
+import { ChampionModel } from "../../interfaces/ChampionModel";
 
 type ChampListModel = ChampionModel[];
 
@@ -27,6 +18,7 @@ function ChampSelect() {
       return champion ? champion.tags.includes(id ?? "") : null;
     }
   );
+
   const [randomChamp, setRandomChamp] = useState<ChampionModel>();
   const [champList, setChampList] = useState<ChampListModel>(championByRole);
   return (
@@ -40,7 +32,6 @@ function ChampSelect() {
               setChampList(championList)
             }
           />
-
           <Filter
             damageType="ad"
             datas={champList}

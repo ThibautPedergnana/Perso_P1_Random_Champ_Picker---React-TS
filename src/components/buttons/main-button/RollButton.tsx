@@ -1,6 +1,6 @@
 import React from "react";
 import "./MainButtons.css";
-import { ChampionModel } from "../../../pages/champ/ChampSelect";
+import { ChampionModel } from "../../../interfaces/ChampionModel";
 
 interface RollButtonProps {
   datas: Array<ChampionModel>;

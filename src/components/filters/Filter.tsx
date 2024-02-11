@@ -1,57 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 
 import ApIcon from "../../assets/icons/damage/APIcon.png";
 import AdIcon from "../../assets/icons/damage/ADIcon.png";
+import { ChampionModel } from "../../interfaces/ChampionModel";
 
 interface DamageTypeProps {
-  damageType: string;
+  damageType: "ap" | "ad";
   datas: ChampionModel[];
   setChampList: (championList: ChampionModel[]) => void;
 }
 
-interface ChampionModel {
-  id?: string;
-  key: string;
-  name: string;
-  title?: string;
-  image: string;
-  tags?: string[];
-  damage?: string[];
-}
-
 function Filter({ damageType, datas, setChampList }: DamageTypeProps) {
+  const [isActive, setIsActive] = useState<boolean>(false);
+  const [originalDatas, setOriginalDatas] = useState(datas);
+
   const championByDamageType = () => {
     const filteredChampions = datas.filter((champion) => {
       return (
         champion.damage && champion.damage.includes(damageType.toUpperCase())
       );
     });
-    console.log(filteredChampions);
     setChampList(filteredChampions);
   };
 
-  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
-    e.preventDefault();
-    switch (damageType) {
-      case "ap":
-        return championByDamageType();
-      case "ad":
-        return championByDamageType();
-      default:
-        <></>;
+  const handleClick = () => {
+    if (!isActive) {
+      setOriginalDatas(datas); // Sauvegarde des données d'origine avant de filtrer
+      championByDamageType();
+    } else {
+      setChampList(originalDatas); // Réinitialisation de la liste complète
     }
+    setIsActive(!isActive); // Inversion de l'état d'activation du filtre
   };
 
   const getDamageType = () => {
-    switch (damageType) {
-      case "ap":
-        return <img src={ApIcon} alt="AP Icon" className="filters ap-damage" />;
-      case "ad":
-        return <img src={AdIcon} alt="AD Icon" className="filters ad-damage" />;
-
-      default:
-        <></>;
+    if (damageType === "ap") {
+      return <img src={ApIcon} alt="AP Icon" className="filters ap-damage" />;
     }
+    return <img src={AdIcon} alt="AD Icon" className="filters ad-damage" />;
   };
   return (
     <button className={"button-" + damageType} onClick={handleClick}>
