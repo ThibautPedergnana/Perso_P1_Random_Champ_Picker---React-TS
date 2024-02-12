@@ -7,7 +7,7 @@ function Home() {
   return (
     <App>
       <div className="home-content">
-        <h2 className="home-title">Choose your role</h2>
+        <h2 className="home-title">Select a role</h2>
         <div className="center">
           <nav className="nav">
             <RoleButton labelItem="top" />
