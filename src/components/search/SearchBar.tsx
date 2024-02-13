@@ -1,5 +1,6 @@
 import React, { useState, ChangeEvent } from "react";
 import { ChampionModel } from "../../interfaces/ChampionModel";
+import "../search/SearchBar.css";
 
 interface DamageTypeProps {
   datas: ChampionModel[];
@@ -25,8 +26,15 @@ function SearchBar({ datas, setChampList }: DamageTypeProps) {
   };
 
   return (
-    <div>
-      <input id="search" type="text" value={search} onChange={handleSearch} />;
+    <div className="input-container">
+      <input
+        id="search"
+        className="input-field"
+        type="text"
+        value={search}
+        onChange={handleSearch}
+        placeholder="Search"
+      />
     </div>
   );
 }

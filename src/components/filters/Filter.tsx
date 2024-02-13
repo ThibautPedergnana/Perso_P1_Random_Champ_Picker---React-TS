@@ -49,6 +49,7 @@ function Filters({ datas, setChampList }: DamageTypeProps) {
         name="AP"
         className="filter-button button-ap"
         onClick={(e) => handleClick(e.currentTarget.name)}
+        data-text=""
       >
         <img src={ApIcon} alt="AP Icon" className="filters ap-damage" />
       </button>
@@ -56,6 +57,7 @@ function Filters({ datas, setChampList }: DamageTypeProps) {
         name="AD"
         className="filter-button button-ad"
         onClick={(e) => handleClick(e.currentTarget.name)}
+        data-text=""
       >
         <img src={AdIcon} alt="AD Icon" className="filters ad-damage" />
       </button>

@@ -2,15 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
   max-height: 600px;
 }
 .champions-list {
   overflow: scroll;
   overflow-x: hidden;
   display: flex;
-  /* grid-template-columns: repeat(5, 1fr); */
-  /* grid-gap: 10px; */
   flex-wrap: wrap;
   justify-content: center;
 }

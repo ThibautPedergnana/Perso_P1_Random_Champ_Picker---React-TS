@@ -1,55 +1,41 @@
-.btn {
+.roll-button {
   margin-top: 40px;
-  width: 140px;
-  height: 40px;
-  border: none;
-  border-radius: 10px;
-  background: linear-gradient(
-    to right,
-    #77530a,
-    #ffd277,
-    #77530a,
-    #77530a,
-    #ffd277,
-    #77530a
-  );
-  background-size: 250%;
-  background-position: left;
-  color: #ffd277;
-  position: relative;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+  height: 34px;
+  width: 112px;
   cursor: pointer;
+  background-color: #0000007d;
   transition-duration: 1s;
-  overflow: hidden;
+  border: 3px solid #ffd277;
+  border-radius: 25px;
 }
 
-.btn::before {
-  position: absolute;
-  content: "ROLL";
+.lable {
+  line-height: 20px;
+  font-size: 17px;
   color: #ffd277;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 97%;
-  height: 90%;
-  border-radius: 8px;
-  transition-duration: 1s;
-  background-color: rgba(0, 0, 0, 0.842);
-  background-size: 200%;
+  font-family: sans-serif;
+  letter-spacing: 1px;
 }
 
-.btn:hover {
-  background-position: right;
-  transition-duration: 1s;
+.roll-button:hover {
+  background: #77530a;
 }
 
-.btn:hover::before {
-  background-position: right;
-  transition-duration: 1s;
+.roll-button:hover .svg-icon {
+  animation: spin 2s linear infinite;
 }
 
-.btn:active {
-  transform: scale(0.95);
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
 }
