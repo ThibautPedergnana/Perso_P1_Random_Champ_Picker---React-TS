@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import ApIcon from "../../assets/icons/damage/APIcon.png";
 import AdIcon from "../../assets/icons/damage/ADIcon.png";
@@ -11,56 +11,58 @@ interface DamageTypeProps {
 }
 
 function Filters({ datas, setChampList }: DamageTypeProps) {
-  const [apIsActive, setApIsActive] = useState<boolean>(false);
-  const [adIsActive, setAdIsActive] = useState<boolean>(false);
-  const [originalDatas, setOriginalDatas] = useState(datas);
+  const [selectedFilters, setSelectedFilters] = useState<string[]>([]);
+  const [filteredChampions, setFilteredChampions] = useState(datas);
+  let filters = ["AP", "AD"];
 
-  const championByDamageType = (name: string) => {
-    const filteredChampions = datas.filter((champion) => {
-      return champion.damage && champion.damage.includes(name);
-    });
+  const handleFilterButtonClick = (damageType: string) => {
+    if (selectedFilters.includes(damageType)) {
+      let filters = selectedFilters.filter((el) => el !== damageType);
+      setSelectedFilters(filters);
+    } else {
+      setSelectedFilters([...selectedFilters, damageType]);
+    }
+  };
+
+  useEffect(() => {
+    filterChampions();
+  }, [selectedFilters]);
+
+  const filterChampions = () => {
+    if (selectedFilters.length > 0) {
+      const tempItems = datas.filter((champion) =>
+        selectedFilters.some((damageType) =>
+          champion.damage.includes(damageType)
+        )
+      );
+
+      setFilteredChampions(tempItems);
+    } else {
+      setFilteredChampions([...datas]);
+    }
+  };
+
+  useEffect(() => {
     setChampList(filteredChampions);
-  };
-
-  const handleClick = (name: string) => {
-    if (name === "AP") {
-      setApIsActive(!apIsActive);
-      if (!apIsActive) {
-        setOriginalDatas(datas); // Sauvegarde des données d'origine avant de filtrer
-        championByDamageType(name);
-      } else {
-        setChampList(originalDatas); // Réinitialisation de la liste complète
-      }
-    }
-    if (name === "AD") {
-      setAdIsActive(!adIsActive);
-      if (!adIsActive) {
-        setOriginalDatas(datas); // Sauvegarde des données d'origine avant de filtrer
-        championByDamageType(name);
-      } else {
-        setChampList(originalDatas); // Réinitialisation de la liste complète
-      }
-    }
-  };
+  }, [filteredChampions]);
 
   return (
     <nav className="filters-container">
-      <button
-        name="AP"
-        className="filter-button button-ap"
-        onClick={(e) => handleClick(e.currentTarget.name)}
-        data-text=""
-      >
-        <img src={ApIcon} alt="AP Icon" className="filters ap-damage" />
-      </button>
-      <button
-        name="AD"
-        className="filter-button button-ad"
-        onClick={(e) => handleClick(e.currentTarget.name)}
-        data-text=""
-      >
-        <img src={AdIcon} alt="AD Icon" className="filters ad-damage" />
-      </button>
+      {filters.map((damageType, idx) => (
+        <button
+          onClick={() => handleFilterButtonClick(damageType)}
+          className={`button ${
+            selectedFilters?.includes(damageType) ? "active" : ""
+          }`}
+          key={`filters-${idx}`}
+        >
+          {damageType === "AP" ? (
+            <img src={ApIcon} alt="AP Icon" className="filters ap-damage" />
+          ) : (
+            <img src={AdIcon} alt="AD Icon" className="filters ad-damage" />
+          )}
+        </button>
+      ))}
     </nav>
   );
 }
