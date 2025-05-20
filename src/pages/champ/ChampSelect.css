@@ -1,0 +1,14 @@
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 50%;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5em;
+}

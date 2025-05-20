@@ -1,0 +1,17 @@
+.container-app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
+    url("../assets/League_of_Legends_Wallpaper.jpg");
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content-app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

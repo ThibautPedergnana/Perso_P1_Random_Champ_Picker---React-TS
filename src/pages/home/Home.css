@@ -1,0 +1,25 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  position: relative;
+  background-image: url("../../assets/League_of_Legends_Map.png");
+  width: 1000px;
+  height: 630px;
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-gap: 0;
+  grid-template-rows: repeat(8, 0.5fr);
+}
+
+.home-title {
+  text-align: center;
+  color: #ffd277;
+}
+/* .home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */

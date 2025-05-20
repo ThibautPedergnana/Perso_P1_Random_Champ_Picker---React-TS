@@ -1,0 +1,41 @@
+.roll-button {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+  height: 34px;
+  width: 112px;
+  cursor: pointer;
+  background-color: #0000007d;
+  transition-duration: 1s;
+  border: 3px solid #ffd277;
+  border-radius: 25px;
+}
+
+.lable {
+  line-height: 20px;
+  font-size: 17px;
+  color: #ffd277;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.roll-button:hover {
+  background: #77530a;
+}
+
+.roll-button:hover .svg-icon {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}

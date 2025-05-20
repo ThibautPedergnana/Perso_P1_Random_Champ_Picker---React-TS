@@ -1,0 +1,26 @@
+.champions-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 600px;
+}
+.champions-list {
+  overflow: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.champion-card {
+  margin: 0 20px;
+}
+
+.champion-name {
+  text-wrap: nowrap;
+}
+
+.main-button-container {
+  display: flex;
+  gap: 60px;
+}
